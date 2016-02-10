@@ -1,0 +1,53 @@
+.encabezado{
+  background-color:gray;
+  font-family:'verdana';
+  color: white;
+  padding: 0.2px;
+  margin-bottom:20px;
+}
+
+section{
+  position:relative;
+  overflow: hidden;
+}
+
+h1{
+  margin-left:20px;  
+}
+
+.menu{
+  float:left;
+  left: 0px;
+}
+
+.menu ul li {
+ background-color: rgba(0, 102, 204, .7);
+ padding:10px;
+ margin:2px;
+ color:white; 
+}
+
+.menu li {
+  font-family:'verdana';
+  list-style:none;
+}
+
+.texto {
+  font-family:'verdana'; 
+  display; inline-block;
+  position:absolute;
+  width:80%;
+  left:200px;
+  font-size:20px;
+}
+.imagenes{
+  position: absolute;
+  left: 300px;
+
+
+}
+
+.imagenes img {
+    max-width:300px;
+
+}
